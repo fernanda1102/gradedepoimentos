@@ -45,28 +45,48 @@ body {
 }
 
 .depoiments {
-    display: inline-block;
+    margin: 0 auto;
+    width: 1440px;
+    padding: 70px 10px;
+
+}
+
+.depoiments li {
+  display: inline-block;
+  margin: 0 1%;
+  
 }
 
 .Daniel_Clifford {
-    width: 600px;
+    width: 650px;
+    text-align: left;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
 .Jonathan_Walters {
-    width: 600px;
-}
-
-.Jeanette_Harmon {
-    width: 600px;
-}
-
-.Patrick_Abrams {
-    width: 600px;
+    width: 300px;
+    text-align: left;
+    vertical-align: top;
 }
 
 .Kira_Whittle {
-    width: 600px;
+    width: 300px;
+    text-align: left;
+    vertical-align: top;
 }
+
+.Jeanette_Harmon {
+    width: 300px;
+    text-align: left;
+}
+
+.Patrick_Abrams {
+    width: 650px;
+    text-align: left;
+}
+
+
 
 
 
