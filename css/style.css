@@ -1,0 +1,76 @@
+@import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+
+:root {
+    --font-family: 'Barlow Semi Condensed', sans-serif;
+    --bg-color: #CBD9FA;
+    --primary-color: #2e2e2e;
+    --second-color: #dddfd5;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+}
+
+#titlewhite {
+    font-size: 17px;
+}
+
+#titlefirstwhite {
+    font-size: 13px;
+}
+
+#titlesecondwhite {
+    font-size: 25px;
+}
+
+#textwhite {
+    font-size: 15px;
+}
+
+#titlegray {
+    font-size: 17px;
+}
+
+#titlefirstgray {
+    font-size: 13px;
+}
+
+#titlesecondgray {
+    font-size: 25px;
+}
+
+#textgray {
+    font-size: 15px;
+}
+
+.depoiments {
+    display: inline-block;
+}
+
+.Daniel_Clifford {
+    width: 600px;
+}
+
+.Jonathan_Walters {
+    width: 600px;
+}
+
+.Jeanette_Harmon {
+    width: 600px;
+}
+
+.Patrick_Abrams {
+    width: 600px;
+}
+
+.Kira_Whittle {
+    width: 600px;
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
