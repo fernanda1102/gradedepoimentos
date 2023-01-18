@@ -5,6 +5,7 @@
     --bg-color: #CBD9FA;
     --primary-color: #2e2e2e;
     --second-color: #dddfd5;
+    --fundo-roxo: #6C22E6
 }
 
 body {
@@ -62,6 +63,7 @@ body {
     text-align: left;
     vertical-align: top;
     box-sizing: border-box;
+    background-color: var(--fundo-roxo);
 }
 
 .Jonathan_Walters {
