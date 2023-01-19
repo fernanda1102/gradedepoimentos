@@ -13,86 +13,37 @@ body {
     font-family: var(--font-family);
 }
 
+.first_line {
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+}
+
 #titlewhite {
-    font-size: 17px;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #titlefirstwhite {
-    font-size: 13px;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+    margin-left: -13%;
 }
 
 #titlesecondwhite {
-    font-size: 25px;
-}
-
-#textwhite {
-    font-size: 15px;
-}
-
-#titlegray {
     font-size: 17px;
 }
 
-#titlefirstgray {
-    font-size: 13px;
-}
-
-#titlesecondgray {
-    font-size: 25px;
-}
-
-#textgray {
-    font-size: 15px;
-}
-
-.depoiments {
-    margin: 0 auto;
-    width: 1440px;
-    padding: 70px 10px;
-
-}
-
-.depoiments li {
-  display: inline-block;
-  margin: 0 1%;
-  
+#textwhite {
+    font-size: 12px;
 }
 
 .Daniel_Clifford {
-    width: 650px;
-    text-align: left;
-    vertical-align: top;
-    box-sizing: border-box;
     background-color: var(--fundo-roxo);
+    width: 600px;
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--second-color);
 }
-
-.Jonathan_Walters {
-    width: 300px;
-    text-align: left;
-    vertical-align: top;
-}
-
-.Kira_Whittle {
-    width: 300px;
-    text-align: left;
-    vertical-align: top;
-}
-
-.Jeanette_Harmon {
-    width: 300px;
-    text-align: left;
-}
-
-.Patrick_Abrams {
-    width: 650px;
-    text-align: left;
-}
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
