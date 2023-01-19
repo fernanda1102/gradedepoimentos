@@ -18,32 +18,98 @@ body {
     grid-template-columns: 60% 20% 20%;
 }
 
-#titlewhite {
-    font-size: 12px;
-    display: inline-block;
-    vertical-align: top;
-}
-
-#titlefirstwhite {
-    font-size: 12px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 2%;
-    margin-left: -13%;
-}
-
-#titlesecondwhite {
-    font-size: 17px;
-}
-
-#textwhite {
-    font-size: 12px;
-}
-
 .Daniel_Clifford {
     background-color: var(--fundo-roxo);
-    width: 600px;
+    width: 500px;
     border-radius: 10px;
     padding: 1em;
     color: var(--second-color);
+    margin: 4em 8em ;
+}
+
+#title_white_1 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#title_first_white_1 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3%;
+    margin-left: -16%;
+}
+
+#title_second_white_1 {
+    font-size: 15px;
+    margin: 1em 0 1.5em 0;
+}
+
+#text_white_1 {
+    font-size: 12px;
+}
+
+.Jonathan_Walters {
+    background-color: #2F4F4F;
+    width: 300px;
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--second-color);
+    margin: 4em -9em ;
+}
+
+#title_white_2 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#title_first_white_2 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4.5%;
+    margin-left: -32%;
+}
+
+#title_second_white_2 {
+    font-size: 17px;
+    margin: 1em 0 2em 0;
+}
+
+#text_white_2 {
+    font-size: 12px;
+}
+
+.Kira_Whittle {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--primary-color);
+    margin: -18.5em 64em ;
+}
+
+#title_gray_1 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#title_first_gray_1 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4.5%;
+    margin-left: -22%;
+}
+
+#title_second_gray_1 {
+    font-size: 17px;
+    margin: 1em 0 2em 0;
+}
+
+#text_gray_1 {
+    font-size: 12px;
 }
