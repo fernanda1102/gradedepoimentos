@@ -51,6 +51,7 @@ main {
     vertical-align: top;
     margin-top: 3%;
     margin-left: -20%;
+    opacity: 0.5;
 }
 
 #title_second_white_1 {
@@ -60,6 +61,7 @@ main {
 
 #text_white_1 {
     font-size: 12px;
+    opacity: 0.5;
 }
 
 .Jonathan_Walters {
@@ -83,6 +85,7 @@ main {
     vertical-align: top;
     margin-top: -47px;
     margin-left: 60px;
+    opacity: 0.5;
 }
 
 #title_second_white_2 {
@@ -92,6 +95,7 @@ main {
 
 #text_white_2 {
     font-size: 12px;
+    opacity: 0.5;
 }
 
 
@@ -129,6 +133,7 @@ main {
     vertical-align: top;
     margin-top: -47px;
     margin-left: 60px;
+    opacity: 0.5;
 }
 
 #title_second_gray_1 {
@@ -138,6 +143,7 @@ main {
 
 #text_gray_1 {
     font-size: 12px;
+    opacity: 0.5;
 }
 
 .Patrick_Abrams {
@@ -161,6 +167,7 @@ main {
     vertical-align: top;
     margin-top: 3%;
     margin-left: -85px;
+    opacity: 0.5;
 }
 
 #title_second_white_3 {
@@ -170,6 +177,7 @@ main {
 
 #text_white_3 {
     font-size: 12px;
+    opacity: 0.5;
 }
 
 /* Third container*/
@@ -206,6 +214,7 @@ main {
     vertical-align: top;
     margin-top: -47px;
     margin-left: 60px;
+    opacity: 0.5;
 }
 
 #title_second_gray_2 {
@@ -215,13 +224,18 @@ main {
 
 #text_gray_2 {
     font-size: 12px;
+    opacity: 0.5;
 }
 
 /* Footer*/
 
 .attribution-container {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    font-family: var(--font-family);
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
+    margin-top: 50px;
 }
