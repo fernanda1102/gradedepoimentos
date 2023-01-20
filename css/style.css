@@ -8,23 +8,35 @@
     --fundo-roxo: #6C22E6
 }
 
-body {
+html{ 
     background-color: var(--bg-color);
+}
+
+main {
     font-family: var(--font-family);
 }
 
-.first_line {
-    display: grid;
-    grid-template-columns: 60% 20% 20%;
+/* First container*/
+
+.first_container {
+    display: flex;
+    justify-content: space-center;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 3em;
+    margin-left: 15em;
+    gap: 1em;
+    
 }
 
 .Daniel_Clifford {
     background-color: var(--fundo-roxo);
-    width: 500px;
+    width: 400px;
     border-radius: 10px;
     padding: 1em;
     color: var(--second-color);
-    margin: 4em 8em ;
+    order: 1;
 }
 
 #title_white_1 {
@@ -52,11 +64,11 @@ body {
 
 .Jonathan_Walters {
     background-color: #2F4F4F;
-    width: 300px;
+    width: 190px;
     border-radius: 10px;
     padding: 1em;
     color: var(--second-color);
-    margin: 4em -9em ;
+    order: 2;
 }
 
 #title_white_2 {
@@ -74,7 +86,7 @@ body {
 }
 
 #title_second_white_2 {
-    font-size: 17px;
+    font-size: 15px;
     margin: 1em 0 2em 0;
 }
 
@@ -82,13 +94,27 @@ body {
     font-size: 12px;
 }
 
-.Kira_Whittle {
+
+/* Second container*/
+
+.second_container {
+    display: flex;
+    justify-content: space-center;
+    align-items: flex-end;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-left: 15em;
+    gap: 1em;
+}
+
+.Jeanette_Harmon {
     background-color: white;
-    width: 300px;
+    width: 190px;
     border-radius: 10px;
     padding: 1em;
     color: var(--primary-color);
-    margin: -18.5em 64em ;
+    order: 3;
 }
 
 #title_gray_1 {
@@ -106,10 +132,95 @@ body {
 }
 
 #title_second_gray_1 {
-    font-size: 17px;
+    font-size: 15px;
     margin: 1em 0 2em 0;
 }
 
 #text_gray_1 {
     font-size: 12px;
+}
+
+.Patrick_Abrams {
+    background-color: hsl(219, 18%, 29%);
+    width: 400px;
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--second-color);
+    order: 4;
+}
+
+#title_white_3 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#title_first_white_3 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3%;
+    margin-left: -16%;
+}
+
+#title_second_white_3 {
+    font-size: 15px;
+    margin: 1em 0 1.5em 0;
+}
+
+#text_white_3 {
+    font-size: 12px;
+}
+
+/* Third container*/
+
+.third_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: row;
+    margin-top: -32em;
+    margin-left: 45em;
+}
+
+.Kira_Whittle {
+    background-color: white;
+    width: 190px;
+    height: 480px;
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--primary-color);
+    order: 5;
+}
+
+#title_gray_2 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#title_first_gray_2 {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4.5%;
+    margin-left: -22%;
+}
+
+#title_second_gray_2 {
+    font-size: 15px;
+    margin: 1em 0 2em 0;
+}
+
+#text_gray_2 {
+    font-size: 12px;
+}
+
+
+.attribution-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
 }
