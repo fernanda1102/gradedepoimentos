@@ -4,8 +4,7 @@
     --font-family: 'Barlow Semi Condensed', sans-serif;
     --bg-color: #CBD9FA;
     --primary-color: #2e2e2e;
-    --second-color: #dddfd5;
-    --fundo-roxo: #6C22E6
+    --second-color: hsl(0, 0%, 81%);
 }
 
 html{ 
@@ -31,7 +30,7 @@ main {
 }
 
 .Daniel_Clifford {
-    background-color: var(--fundo-roxo);
+    background-color: hsl(263, 55%, 52%);
     width: 400px;
     border-radius: 10px;
     padding: 1em;
@@ -65,7 +64,7 @@ main {
 }
 
 .Jonathan_Walters {
-    background-color: #2F4F4F;
+    background-color: hsl(217, 19%, 35%);
     width: 190px;
     border-radius: 10px;
     padding: 1em;
@@ -147,7 +146,7 @@ main {
 }
 
 .Patrick_Abrams {
-    background-color: hsl(219, 18%, 29%);
+    background-color: hsl(219, 29%, 14%);
     width: 400px;
     border-radius: 10px;
     padding: 1em;
