@@ -13,6 +13,7 @@ html{
 
 main {
     font-family: var(--font-family);
+    
 }
 
 /* First container*/
@@ -23,10 +24,25 @@ main {
     align-items: flex-start;
     align-content: center;
     flex-direction: row;
-    margin-top: 3em;
+    margin-top: 1em;
     margin-left: 15em;
     gap: 1em;
-    
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#images {
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+#aspas {
+    display: flex;
+    top: 0.51em;
+    margin-left: 16em;
+    width: 7%;
+    opacity: 70%;
+    position: absolute;
 }
 
 .Daniel_Clifford {
@@ -109,6 +125,7 @@ main {
     margin-top: 1em;
     margin-left: 15em;
     gap: 1em;
+    flex-wrap: wrap;
 }
 
 .Jeanette_Harmon {
@@ -183,13 +200,16 @@ main {
 
 .third_container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: space-center;
+    align-items: flex-end;
     align-content: center;
     flex-direction: row;
     margin-top: -32em;
-    margin-left: 45em;
+    margin-left: 58em;
+    flex-wrap: wrap;
+    gap: 1em;
 }
+
 
 .Kira_Whittle {
     background-color: white;
@@ -224,6 +244,13 @@ main {
 #text_gray_2 {
     font-size: 12px;
     opacity: 0.5;
+}
+
+@media (min-width: 375px) {
+    .third_container {
+        flex-flow: columm wrap;
+    }
+
 }
 
 /* Footer*/
